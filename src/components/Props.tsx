@@ -9,7 +9,7 @@ interface IProps {
   onSmthHappen: (name: string) => void;
 }
 //React.FunctionComponent yerine FC'de kullanılabilir
-const Hello: React.FunctionComponent<IProps> = ({
+const Props: React.FunctionComponent<IProps> = ({
   name,
   label,
   description = "Desc",
@@ -25,4 +25,4 @@ const Hello: React.FunctionComponent<IProps> = ({
   );
 };
 
-export default Hello;
+export default Props;

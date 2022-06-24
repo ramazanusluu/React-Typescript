@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import Events from "./components/Events";
 import Props from "./components/Props";
 
 //Props
@@ -16,6 +17,8 @@ function App() {
           console.log(name);
         }}
       />
+      <hr />
+      <Events />
     </div>
   );
 }
