@@ -18,7 +18,10 @@ function App() {
         }}
       />
       <hr />
-      <Events />
+      <Events  name={"Ramazan"}
+        onSmthHappen={(name) => {
+          console.log(name);
+        }}/>
     </div>
   );
 }
